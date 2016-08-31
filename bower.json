@@ -1,16 +1,30 @@
 {
   "name": "klipper",
-  "version": "0.0.0",
+  "description": "a video editor",
+  "main": "",
+  "authors": [
+    "ben sochar <bsochar@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "bensochar.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "angular": "^1.4.0",
-    "bootstrap-sass-official": "^3.2.0",
     "angular-animate": "^1.4.0",
     "angular-aria": "^1.4.0",
-    "angular-cookies": "^1.4.0",
+    "angular-mocks": "^1.4.0",
     "angular-resource": "^1.4.0",
-    "angular-route": "^1.4.0",
+    "angular-cookies": "^1.4.0",
     "angular-sanitize": "^1.4.0",
-    "angular-touch": "^1.4.0"
+    "angular-route": "^1.4.0",
+    "angular-touch": "^1.4.0",
+    "bootstrap-sass-official": "^3.2.0"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"
